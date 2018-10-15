@@ -34,7 +34,7 @@ export class TentativasComponent implements OnInit {
       this.coracoes[indice - 1].cheio = false
     }
 
-    console.log('Tentativas', this.tentativas)
+    
    }
 
   ngOnInit() {

@@ -48,7 +48,7 @@ export class PainelComponent implements OnInit, OnDestroy {
   public veriifcarResposta(): void{
 
     if(this.rodadaFrase.frasePtbr == this.resposta){
-      alert("Está correto")
+      
 
       //Troca as Frases a serem traduzidas
       this.rodada++
@@ -75,7 +75,7 @@ export class PainelComponent implements OnInit, OnDestroy {
         this.ecerrarJogo.emit('Derrota')
          //alert("Se fodeu!!! :S")
       }
-      alert("Esta errado")
+      
     }
 
     
